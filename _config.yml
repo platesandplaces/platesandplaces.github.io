@@ -324,3 +324,17 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Navigation Menu
+header:
+  nav:
+    - title: "Home"
+      url: "/"
+    - title: "Recipes"
+      url: "/recipes/"
+    - title: "Travel"
+      url: "/travel/"
+    - title: "Food Finds"
+      url: "/food-finds/"
+    - title: "About"
+      url: "/about/"
