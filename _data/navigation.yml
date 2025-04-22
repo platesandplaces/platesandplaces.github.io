@@ -1,12 +1,11 @@
-# main links
 main:
   - title: "Home"
-    url: /
-  # - title: "Recipes"
-  #   url: /recipes/
-  # - title: "Travel"
-  #   url: /travel/
-  # - title: "Food Finds"
-  #   url: /food-finds/
-  # - title: "About"
-  #   url: /about/
+    url: "/"
+  - title: "Recipes"
+    url: "/recipes/"
+  - title: "Travel"
+    url: "/travel/"
+  - title: "Food Finds"
+    url: "/food-finds/"
+  - title: "About"
+    url: "/about/"
