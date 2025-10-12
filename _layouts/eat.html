@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="eat">
+  <h1>{{ page.title }}</h1>
+  {% if page.summary %}<p class="muted">{{ page.summary }}</p>{% endif %}
+  <ul class="muted">
+    {% if page.venue_type %}<li>Type: {{ page.venue_type }}</li>{% endif %}
+    {% if page.country %}<li>Country: {{ page.country | capitalize }}</li>{% endif %}
+    {% if page.city %}<li>City/Area: {{ page.city | capitalize }}</li>{% endif %}
+    {% if page.visited %}<li>Visited: {{ page.visited }}</li>{% endif %}
+  </ul>
+  {{ content }}
+</article>
