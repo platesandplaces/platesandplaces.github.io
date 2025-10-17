@@ -1,0 +1,37 @@
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+  <p><a class="button" href="{{ '/recipes/' | relative_url }}">Browse recipes</a></p>
+</section>
+
+<section>
+  <h2>Explore</h2>
+  <div class="grid">
+    <div class="card">
+      <h3><a href="{{ '/recipes/' | relative_url }}">Recipes</a></h3>
+      <p>Browse by country and cuisine.</p>
+    </div>
+    <div class="card">
+      <h3><a href="{{ '/travel/' | relative_url }}">Travel</a></h3>
+      <p>Stories, itineraries and tips.</p>
+    </div>
+    <div class="card">
+      <h3><a href="{{ '/food-guide/' | relative_url }}">Food Guide</a></h3>
+      <p>Cafés, markets & more.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Browse by country</h2>
+  <ul>
+    <li><a href="{{ '/recipes/korea/' | relative_url }}">Korea</a></li>
+    <li><a href="{{ '/recipes/japan/' | relative_url }}">Japan</a></li>
+    <li><a href="{{ '/recipes/vietnam/' | relative_url }}">Vietnam</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Latest Recipe</h2>
+  <p>Stay tuned for the newest addition!</p>
+</section>
