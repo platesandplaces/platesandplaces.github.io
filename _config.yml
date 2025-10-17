@@ -1,0 +1,17 @@
+title: Plates & Places
+description: Authentic recipes, travel stories, and food recommendations.
+baseurl: ""
+url: "https://platesandplaces.github.io"
+markdown: kramdown
+theme: null
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:path/
+  travel:
+    output: true
+    permalink: /travel/:path/
+  eats:
+    output: true
+    permalink: /food-guide/:path/
+permalink: /:path/
