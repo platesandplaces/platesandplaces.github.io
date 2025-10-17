@@ -1,20 +1,25 @@
 ---
-layout: archive
+layout: default
 ---
-
-{{ content }}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=posts type=entries_layout %}
-</div>
-
-{% include paginator.html %}
+<section class="hero">
+  <h1>Plates & Places</h1>
+  <p>Recipes I actually cook, travel notes from trips, and a Food Guide I recommend.</p>
+  <p><a class="button" href="{{ '/recipes/' | relative_url }}">Browse recipes</a></p>
+</section>
+<section>
+  <h2>Explore</h2>
+  <div class="grid">
+    <div class="card">
+      <h3><a href="{{ '/recipes/' | relative_url }}">Recipes</a></h3>
+      <p>Korean, Vietnamese, Japanese — grandma-style where possible.</p>
+    </div>
+    <div class="card">
+      <h3><a href="{{ '/travel/' | relative_url }}">Travel</a></h3>
+      <p>Trip stories and practical notes (Japan 2025–26 first).</p>
+    </div>
+    <div class="card">
+      <h3><a href="{{ '/food-guide/' | relative_url }}">Food Guide</a></h3>
+      <p>Restaurants, cafés, markets & street food I’ve tried and recommend.</p>
+    </div>
+  </div>
+</section>
