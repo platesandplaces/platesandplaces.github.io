@@ -5,16 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Recipes | Plates & Places</title>
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/recipes.css">
 </head>
 <body>
-  <header class="hero"><h1>Recipes</h1><p>Browse by country and dish type</p></header>
+  <header class="hero">
+    <h1>Recipes</h1>
+    <p>Pick a country to explore</p>
+  </header>
   <main class="container">
-    <h2>Countries</h2><ul class='list'><li><a href="/recipes/france/">France</a></li>
-<li><a href="/recipes/japan/">Japan</a></li>
-<li><a href="/recipes/korea/">Korea</a></li>
-<li><a href="/recipes/philippines/">Philippines</a></li>
-<li><a href="/recipes/vietnam/">Vietnam</a></li></ul>
-    <p><a href="/">← Home</a></p>
+    <div class="grid">
+      <article class="card"><h3><a href="/recipes/france/">France</a></h3><p>Country collection</p><div class="meta"><span class="badge">France</span></div></article><article class="card"><h3><a href="/recipes/japan/">Japan</a></h3><p>Country collection</p><div class="meta"><span class="badge">Japan</span></div></article><article class="card"><h3><a href="/recipes/korea/">Korea</a></h3><p>Country collection</p><div class="meta"><span class="badge">Korea</span></div></article><article class="card"><h3><a href="/recipes/philippines/">Philippines</a></h3><p>Country collection</p><div class="meta"><span class="badge">Philippines</span></div></article><article class="card"><h3><a href="/recipes/vietnam/">Vietnam</a></h3><p>Country collection</p><div class="meta"><span class="badge">Vietnam</span></div></article>
+    </div>
+    <div class="sep"></div>
+    <p style="text-align:center"><a href="/">← Back to Home</a></p>
   </main>
+  <footer>© Plates & Places</footer>
 </body>
 </html>

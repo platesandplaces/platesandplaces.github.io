@@ -1,0 +1,34 @@
+
+/* Recipes supplemental styles */
+:root { --maxw: 980px; --pad: 20px; --gap: 18px; --card-radius: 16px; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Poppins, Arial, sans-serif; color: #1f2937; background: #fafafa; }
+a { color: #0ea5e9; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container { max-width: var(--maxw); margin: 0 auto; padding: var(--pad); }
+.hero { text-align: center; padding: 48px 16px 16px; }
+.hero h1 { margin: 0 0 8px; font-size: 2rem; }
+.hero p { margin: 0; color: #6b7280; }
+
+.filter-bar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 16px 0 24px; }
+.filter-pill { padding: 8px 12px; border-radius: 999px; background: #e5e7eb; color: #111827; font-size: 0.9rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--gap); }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: var(--card-radius); padding: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; }
+.card h3 { margin: 0 0 8px; font-size: 1.1rem; }
+.card p { margin: 0 0 10px; color: #6b7280; font-size: 0.95rem; }
+.meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; }
+.badge { background: #eef2ff; color: #3730a3; padding: 4px 8px; border-radius: 999px; font-size: 0.78rem; }
+.sep { border-top: 1px solid #e5e7eb; margin: 24px 0; }
+
+/* Recipe page */
+.recipe-meta { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; color: #6b7280; }
+.content { display: grid; gap: var(--gap); grid-template-columns: 1fr; }
+@media (min-width: 900px) { .content { grid-template-columns: 1.15fr 0.85fr; } }
+.section { background: #fff; border: 1px solid #e5e7eb; border-radius: var(--card-radius); padding: 18px; }
+.section h2 { margin-top: 0; }
+ul { padding-left: 18px; }
+ol { padding-left: 18px; }
+.section h3 { margin-bottom: 6px; margin-top: 14px; }
+.backlink { text-align: center; margin-top: 16px; }
+footer { text-align: center; color: #9ca3af; padding: 24px; font-size: 0.9rem; }
