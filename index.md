@@ -10,4 +10,4 @@ Welcome! This is a simple home page while I build things out.
 - [Recipes](/recipes/)
 - [Travel](/travel/)
 - [Food Guide](/food-guide/)
-- [About](/about/)
+- [About](/about/) 
